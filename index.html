@@ -3,67 +3,96 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Home - Maria Fernanda</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maria Fernanda - Portfólio</title>
     <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <main class="container">
-        <header class="header">
-            <nav class="menu">
-                <img src="Foto-Perfil.ico" alt="Icon Maria Fernanda" />
-                <a href="Experiencias.html">Experiências Profissionais</a>
-                <a href="Habilidades.html">Habilidades</a>
-        </header>
-        <div class="foto-perfil">
-            <img src="Foto-Perfil.jpeg" alt="Foto Maria Fernanda" />
-        </div>
-
-        <h1>Maria Fernanda Pires de Oliveira</h1>
-        <p class="job-title">Desenvolvedora Front-End</p>
-
-        <div class="info-pessoal">
-
-            <div class="contato">
-                <a href="mailto:mpiresdeoliveira963@gmail.com">mpiresdeoliveira963@gmail.com</a>
-                <a href="tel:+5514998983886">+55 (14) 998983886</a>
-                <a href="https://www.linkedin.com/in/maria-fernanda-pires-de-oliveira-8680042ab/" target="_blank"
-                    rel="noopener noreferrer">LinkedIn</a>
+    <header class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <img src="Foto-Perfil.jpeg" alt="Maria Fernanda" class="profile-pic">
+            <h1>Maria Fernanda Pires de Oliveira</h1>
+            <p>Desenvolvedora em formação | Criativa | Determinada</p>
+            <div class="social-links">
+                <a href="mailto:mpiresdeoliveira963@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/maria-fernanda-pires-de-oliveira-8680042ab/" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/MariaPires21" target="_blank"><i class="fab fa-github"></i></a>
             </div>
         </div>
+    </header>
 
-        <section class="Objetivo">
-            <h2>Objetivo</h2>
-            <p>Busco oportunidade para atuar como desenvolvedora de software.</p>
-        </section>
+    <main class="card-container">
+        <div class="card" data-aos="fade-up">
+            <h2>🎯 Objetivo</h2>
+            <p>Atuar como Desenvolvedora de Software, contribuindo com minhas habilidades técnicas e vontade de aprender
+                para
+                o crescimento da equipe e da empresa.</p>
+        </div>
 
-        <section class="Habilidades">
-            <h2>Habilidades</h2>
-            <div class="habilidades-lista">
-                <ul>
-                    <li>Comunicação eficaz</li>
-                    <li>Trabalho em equipe</li>
-                    <li>Organização e Proatividade</li>
-                    <li>Desenvolvimento Front-End e Back-End</li>
-                    <li>HTML5 – CSS3 – JavaScript – Bootstrap</li>
-                    <li>Prototipação com Figma</li>
-                </ul>
-                <ul>
-                    <li>Desenvolvimento C# .Net Core MVC</li>
-                    <li>Git & GitHub</li>
-                    <li>ASP.NET</li>
-                    <li>Entity Framework (EF) Core </li>
-                    <li>Banco de Dados SQL Server </li>
-                    <li>Banco de Dados MySQL</li>
-                </ul>
-            </div>
-        </section>
+        <div class="card" data-aos="fade-up">
+            <h2>💡 Habilidades Técnicas</h2>
+            <ul>
+                <li><strong>Linguagens:</strong> HTML5, CSS3, JavaScript, Bootstrap, C# .NET Core MVC, ASP.NET, Angular
+                </li>
+                <li><strong>Banco de Dados:</strong> SQL Server, MySQL</li>
+                <li><strong>Ferramentas:</strong> Git, GitHub, Figma</li>
+                <li><strong>Outros:</strong> Entity Framework Core, Prototipação, ensino lúdico</li>
+            </ul>
+        </div>
 
-        <!-- Pode adicionar aqui outras seções, como experiência e projetos -->
+        <div class="card" data-aos="fade-up">
+            <h2>💼 Experiência Profissional</h2>
+            <h3>Professora de Programação – Código Kid</h3>
+            <p class="periodo">Mai/2025 a atual</p>
+            <ul>
+                <li>Ensino de lógica de programação para crianças de 5 a 9 anos.</li>
+                <li>Atividades práticas e envolventes para facilitar o aprendizado.</li>
+            </ul>
+            <h3>Atendente de Bar e Caixa – Navios Xumbury (Trabalho intermitente)</h3>
+            <p class="periodo">Mar/2024 a Fev/2025</p>
+            <ul>
+                <li>Atendimento durante passeios turísticos.</li>
+                <li>Operações de caixa e controle de vendas.</li>
+            </ul>
+        </div>
 
+        <div class="card" data-aos="fade-up">
+            <h2>🎓 Formação Acadêmica</h2>
+            <ul>
+                <li><strong>Engenharia de Computação</strong> – Faculdade Gran Tietê (2025 - atual)</li>
+                <li><strong>Técnico em Desenvolvimento de Sistemas</strong> – SENAI (2023 - 2024)</li>
+                <li><strong>Ensino Médio</strong> – SESI (Concluído em 2024)</li>
+            </ul>
+        </div>
+
+        <div class="card" data-aos="fade-up">
+            <h2>📚 Cursos Complementares</h2>
+            <ul>
+                <li>Versionamento com Git e GitHub – DIO (2024)</li>
+                <li>Trilha Front-End – UPPER (2024)</li>
+            </ul>
+        </div>
+
+        <div class="card" data-aos="fade-up">
+            <h2><i class="fas fa-volleyball-ball"></i>🏐 Atividades Extracurriculares</h2>
+            <p>Integrante da equipe de Vôlei Feminino de Barra Bonita.</p>
+        </div>
+
+        <div class="card" data-aos="fade-up">
+            <h2>⬇️ Baixar Currículo</h2>
+            <a href="Maria Fernanda Pires de Oliveira - Curriculo.pdf" download class="btn-download">
+                <i class="fas fa-file-download"></i> Download .pdf
+            </a>
+        </div>
     </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
 </body>
 
 </html>
